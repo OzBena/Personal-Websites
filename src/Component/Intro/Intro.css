@@ -1,0 +1,115 @@
+.intro {
+  display: flex;
+  height: 77vh;
+  margin-top: 8rem;
+}
+
+.i-left {
+  display: flex;
+  position: relative;
+  flex: 1;
+  flex-direction: column;
+  gap: 2rem;
+  margin-left: 1rem;
+}
+
+.i-name {
+  display: flex;
+  flex-direction: column;
+}
+
+.i-name > :nth-child(1) {
+  color: var(--darkBlue);
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.i-name > :nth-child(2) {
+  color: var(--blue);
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.i-name > :nth-child(3) {
+  color: var(--gray);
+  font-weight: 100;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.i-button {
+  width: 6rem;
+  height: 2rem;
+}
+
+.i-icons {
+  margin-top: 2.5rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.i-icons > *:hover {
+  cursor: pointer;
+}
+
+.i-right {
+  flex: 1;
+  position: relative;
+  justify-content: center;
+  vertical-align: middle;
+}
+.picContainer {
+  border-radius: 50%;
+  width: 500px;
+  height: 500px;
+  position: relative;
+}
+
+.i-right > * {
+  position: absolute;
+  z-index: 1;
+}
+
+.i-right > :nth-child(1) {
+  transform: scale(1.1);
+  left: 0%;
+  top: -20%;
+}
+.i-right > :nth-child(2) {
+  transform: scale(0.69);
+}
+
+.blur {
+  position: absolute;
+  width: 22rem;
+  height: 14rem;
+  border-radius: 50%;
+  background: #edd0ff;
+  z-index: -9;
+  top: -16%;
+  left: 56%;
+  filter: blur(72px);
+}
+
+@media screen and (max-width: 480px) {
+  .intro {
+    flex-direction: column;
+    margin-top: 4rem;
+    height: 64rem;
+    gap: 6rem;
+  }
+  .i-right {
+    transform: scale(0.7);
+    left: -9rem;
+    margin-top: -8rem;
+  }
+  .i-right .blur {
+    display: none;
+  }
+  .floating-div:nth-of-type(1) {
+    top: 7rem !important;
+  }
+  .floating-div:nth-of-type(2) {
+    top: 19rem !important;
+  }
+}

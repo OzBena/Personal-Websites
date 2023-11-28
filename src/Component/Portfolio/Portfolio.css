@@ -1,0 +1,117 @@
+.portfolio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 50vh;
+  margin-bottom: 12rem;
+}
+
+.portfolio span:nth-of-type(1) {
+  color: var(--darkBlue);
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.portfolio span:nth-of-type(2) {
+  color: var(--blue);
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/*slider*/
+.portfolio .swiper {
+  overflow: visible !important;
+}
+
+.portfolio-slider {
+  margin-top: 3rem;
+  width: 100%;
+}
+
+.portfolio-slider .swiper-slide {
+  width: 20rem;
+}
+
+.portfolio img {
+  width: 19rem;
+  height: 10rem;
+  border: 4px solid var(--blueCard);
+  border-bottom: none;
+  border-top: none;
+}
+
+.s-slide {
+  display: flex;
+  flex-direction: column;
+}
+
+.s-name {
+  width: 19rem;
+  height: 2rem;
+  border-radius: 19px 19px 0px 0px;
+  background: rgba(255, 255, 255, 100);
+  color: var(--darkBlue);
+  text-align: center;
+  border: 4px solid var(--blueCard);
+  font-size: 1.5rem;
+}
+
+.s-details {
+  margin-top: -0.2rem;
+  width: 19rem;
+  height: 2rem;
+  border-radius: 0px 0px 20px 20px;
+  color: var(--darkBlue);
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  border: 4px solid var(--blueCard);
+  vertical-align: middle;
+  filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.25));
+}
+
+.appDescription {
+  flex: 1;
+  padding-top: 0.4rem;
+}
+
+.appDescription:hover {
+  background-color: rgba(220, 220, 220);
+  border-radius: 0px 0px 0px 17px;
+  cursor: pointer;
+}
+
+.appLink {
+  flex: 1;
+  padding-top: 0.4rem;
+  color: var(--darkBlue);
+  text-decoration: none;
+  border-radius: 0px 0px 19px 19px;
+}
+
+.appLink:hover {
+  background-color: rgba(220, 220, 220);
+  border-radius: 0px 0px 17.5px 17.5px;
+}
+
+.buffer {
+  background-color: var(--blue);
+  width: 0.08rem;
+  height: 2rem;
+}
+
+@media screen and (max-width: 480px) {
+  .portfolio {
+    height: 20rem;
+  }
+  .portfolio img {
+    width: 15rem;
+  }
+  .s-name {
+    width: 15rem;
+  }
+  .s-details {
+    width: 15rem;
+  }
+}

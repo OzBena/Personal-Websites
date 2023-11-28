@@ -1,0 +1,53 @@
+:root {
+  --blue: #3047f7;
+  --darkBlue: #242d49;
+  --gray: #788097;
+  --purple: rgb(238 210 255);
+  --boxShadow: 0px 19px 60px rgb(0 0 0 / 8%);
+  --blueCard: rgba(48, 71, 247, 0.45);
+  --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+}
+
+.App {
+  padding: 0.5rem 2rem;
+  overflow: hidden;
+  color: var(--darkBlue);
+  min-width: 1500px;
+}
+
+.button {
+  border-radius: 34px;
+  border: 1px solid transparent;
+  color: white;
+  font-size: 16px;
+  padding: 11px 26px 11px 26px;
+  background-image: linear-gradient(
+    to top,
+    #144897,
+    #0044a6,
+    #003fb4,
+    #0e37c1,
+    #2b2bcb
+  );
+  box-shadow: 0px 20px 24px 3px rgba(14, 55, 193, 0.42);
+}
+
+.button:hover {
+  background: white;
+  cursor: pointer;
+  color: var(--blue);
+  border: 1px solid var(--blue);
+}
+
+@media screen and (max-width: 480px) {
+  .App {
+    padding: 0.5rem 1rem;
+    min-width: 0px;
+  }
+  .button:hover {
+    background: linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%);
+    cursor: default;
+    color: white;
+    border: none;
+  }
+}

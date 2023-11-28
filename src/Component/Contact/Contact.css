@@ -1,0 +1,94 @@
+.contact-from{
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    height: 80vh;
+    margin-top: 4rem;
+    min-height: 800px;
+    padding-top: 6rem;
+}
+ .c-left{
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+ }
+
+ .header{
+    display: flex;
+    flex-direction: column;
+ }
+
+ .header>:nth-child(1)
+{
+    color: var(--darkBlue);
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.header>:nth-child(2)
+{
+    color: var(--blue);
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+
+.c-right{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex: 1;
+}
+
+.c-right>form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+
+.c-right .user{
+    width: 20rem;
+    height: 2rem;
+    padding: 0.3em;
+    outline: none;
+    border: 2px solid var(--blue);
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+textarea{
+    height: 4rem!important;
+}
+
+.c-blur1{
+    top: 1rem;
+    left: 8rem;
+}
+
+.error {
+    color: red;
+    /* Other styling as needed */
+  }
+
+  @media screen and (max-width: 480px) {
+  .contact-from{
+    flex-direction: column;
+    height: 35rem;
+    gap: 3rem;
+    padding: 0 ;
+  }
+  .c-left{
+    padding: 0;
+
+  }
+  .c-right .user{
+    width: 15rem;
+  }
+
+  .c-right>form{
+    height: 24rem;
+  }
+}

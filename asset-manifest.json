@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Personal-Website/static/css/main.814064e5.css",
-    "main.js": "/Personal-Website/static/js/main.156c07b5.js",
+    "main.css": "/Personal-Website/static/css/main.a52be294.css",
+    "main.js": "/Personal-Website/static/js/main.dbfb1965.js",
     "static/media/SWAPI.jpg": "/Personal-Website/static/media/SWAPI.5a3fa8e53c4327bea5c4.jpg",
     "static/media/Oz1.png": "/Personal-Website/static/media/Oz1.1d2999c666e3fd4ee53b.png",
     "static/media/Art Chat.jpg": "/Personal-Website/static/media/Art Chat.e6820ee0bd252f8a855c.jpg",
@@ -16,11 +16,11 @@
     "static/media/crown.png": "/Personal-Website/static/media/crown.dbe416beae9b49b842ab.png",
     "static/media/glasses.png": "/Personal-Website/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
     "index.html": "/Personal-Website/index.html",
-    "main.814064e5.css.map": "/Personal-Website/static/css/main.814064e5.css.map",
-    "main.156c07b5.js.map": "/Personal-Website/static/js/main.156c07b5.js.map"
+    "main.a52be294.css.map": "/Personal-Website/static/css/main.a52be294.css.map",
+    "main.dbfb1965.js.map": "/Personal-Website/static/js/main.dbfb1965.js.map"
   },
   "entrypoints": [
-    "static/css/main.814064e5.css",
-    "static/js/main.156c07b5.js"
+    "static/css/main.a52be294.css",
+    "static/js/main.dbfb1965.js"
   ]
 }

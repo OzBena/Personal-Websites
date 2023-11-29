@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/Personal-Website/static/css/main.eafe3847.css",
-    "main.js": "/Personal-Website/static/js/main.963e2184.js",
-    "static/media/SWAPI.jpg": "/Personal-Website/static/media/SWAPI.5a3fa8e53c4327bea5c4.jpg",
-    "static/media/Oz1.png": "/Personal-Website/static/media/Oz1.1d2999c666e3fd4ee53b.png",
-    "static/media/Art Chat.jpg": "/Personal-Website/static/media/Art Chat.e6820ee0bd252f8a855c.jpg",
-    "static/media/Personal Website.jpg": "/Personal-Website/static/media/Personal Website.cfb8684f8481f4eab31e.jpg",
-    "static/media/CV.pdf": "/Personal-Website/static/media/CV.5117871528457326b3f0.pdf",
-    "static/media/PayWise.jpg": "/Personal-Website/static/media/PayWise.08e0a16c661f78c93da6.jpg",
-    "static/media/glassesimoji.png": "/Personal-Website/static/media/glassesimoji.a08bdab12e8eb56a6874.png",
-    "static/media/wave.png": "/Personal-Website/static/media/wave.2aeef2384f64fe181626.png",
-    "static/media/thumbup.png": "/Personal-Website/static/media/thumbup.e06790ba656f0397cbe5.png",
-    "static/media/humble.png": "/Personal-Website/static/media/humble.c8b32b53675e68978981.png",
-    "static/media/heartemoji.png": "/Personal-Website/static/media/heartemoji.26b1b6ed5e0e44083b28.png",
-    "static/media/crown.png": "/Personal-Website/static/media/crown.dbe416beae9b49b842ab.png",
-    "static/media/glasses.png": "/Personal-Website/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
-    "index.html": "/Personal-Website/index.html",
-    "main.eafe3847.css.map": "/Personal-Website/static/css/main.eafe3847.css.map",
-    "main.963e2184.js.map": "/Personal-Website/static/js/main.963e2184.js.map"
+    "main.css": "/static/css/main.eafe3847.css",
+    "main.js": "/static/js/main.7048b293.js",
+    "static/media/SWAPI.jpg": "/static/media/SWAPI.5a3fa8e53c4327bea5c4.jpg",
+    "static/media/Oz1.png": "/static/media/Oz1.1d2999c666e3fd4ee53b.png",
+    "static/media/Art Chat.jpg": "/static/media/Art Chat.e6820ee0bd252f8a855c.jpg",
+    "static/media/Personal Website.jpg": "/static/media/Personal Website.cfb8684f8481f4eab31e.jpg",
+    "static/media/CV.pdf": "/static/media/CV.5117871528457326b3f0.pdf",
+    "static/media/PayWise.jpg": "/static/media/PayWise.08e0a16c661f78c93da6.jpg",
+    "static/media/glassesimoji.png": "/static/media/glassesimoji.a08bdab12e8eb56a6874.png",
+    "static/media/wave.png": "/static/media/wave.2aeef2384f64fe181626.png",
+    "static/media/thumbup.png": "/static/media/thumbup.e06790ba656f0397cbe5.png",
+    "static/media/humble.png": "/static/media/humble.c8b32b53675e68978981.png",
+    "static/media/heartemoji.png": "/static/media/heartemoji.26b1b6ed5e0e44083b28.png",
+    "static/media/crown.png": "/static/media/crown.dbe416beae9b49b842ab.png",
+    "static/media/glasses.png": "/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
+    "index.html": "/index.html",
+    "main.eafe3847.css.map": "/static/css/main.eafe3847.css.map",
+    "main.7048b293.js.map": "/static/js/main.7048b293.js.map"
   },
   "entrypoints": [
     "static/css/main.eafe3847.css",
-    "static/js/main.963e2184.js"
+    "static/js/main.7048b293.js"
   ]
 }

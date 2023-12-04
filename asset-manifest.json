@@ -1,26 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.eafe3847.css",
-    "main.js": "/static/js/main.7048b293.js",
+    "main.css": "/static/css/main.b1325ddd.css",
+    "main.js": "/static/js/main.5ae2bce1.js",
     "static/media/SWAPI.jpg": "/static/media/SWAPI.5a3fa8e53c4327bea5c4.jpg",
-    "static/media/Oz1.png": "/static/media/Oz1.1d2999c666e3fd4ee53b.png",
     "static/media/Art Chat.jpg": "/static/media/Art Chat.e6820ee0bd252f8a855c.jpg",
+    "static/media/Oz2.png": "/static/media/Oz2.b9fdd8d25a3545205946.png",
     "static/media/Personal Website.jpg": "/static/media/Personal Website.cfb8684f8481f4eab31e.jpg",
     "static/media/CV.pdf": "/static/media/CV.5117871528457326b3f0.pdf",
     "static/media/PayWise.jpg": "/static/media/PayWise.08e0a16c661f78c93da6.jpg",
-    "static/media/glassesimoji.png": "/static/media/glassesimoji.a08bdab12e8eb56a6874.png",
     "static/media/wave.png": "/static/media/wave.2aeef2384f64fe181626.png",
-    "static/media/thumbup.png": "/static/media/thumbup.e06790ba656f0397cbe5.png",
-    "static/media/humble.png": "/static/media/humble.c8b32b53675e68978981.png",
-    "static/media/heartemoji.png": "/static/media/heartemoji.26b1b6ed5e0e44083b28.png",
-    "static/media/crown.png": "/static/media/crown.dbe416beae9b49b842ab.png",
-    "static/media/glasses.png": "/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
+    "static/media/sw-dev.png": "/static/media/sw-dev.5a57e478f5a6c8fc5dbf.png",
+    "static/media/backend.png": "/static/media/backend.4b700ce74a056bf7ebbb.png",
+    "static/media/frontend.png": "/static/media/frontend.edbabc3933d6506b9243.png",
     "index.html": "/index.html",
-    "main.eafe3847.css.map": "/static/css/main.eafe3847.css.map",
-    "main.7048b293.js.map": "/static/js/main.7048b293.js.map"
+    "main.b1325ddd.css.map": "/static/css/main.b1325ddd.css.map",
+    "main.5ae2bce1.js.map": "/static/js/main.5ae2bce1.js.map"
   },
   "entrypoints": [
-    "static/css/main.eafe3847.css",
-    "static/js/main.7048b293.js"
+    "static/css/main.b1325ddd.css",
+    "static/js/main.5ae2bce1.js"
   ]
 }

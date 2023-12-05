@@ -4,7 +4,7 @@
     position: absolute;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    /* gap: 2rem; */
     align-items: center;
     width: 10rem;
     text-align: center;
@@ -14,6 +14,7 @@
     border-radius: 20px;
     padding: 0px 26px 2rem 26px;
     
+    
 }
 
 .card span:nth-of-type(2){
@@ -22,8 +23,9 @@
 }
 
 .card > img{
-    transform: scale(0.6);
-    margin-bottom: -2rem;
+    transform: scale(0.15);
+    margin-bottom: -8rem;
+    margin-top: -9.5rem;
 }
 
 .c-button{

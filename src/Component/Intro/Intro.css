@@ -75,8 +75,16 @@
   left: 0%;
   top: -20%;
 }
-.i-right > :nth-child(2) {
-  transform: scale(0.69);
+
+.writer {
+  font-size: 3rem;
+  width: 102%;
+}
+.writer > * {
+  font-size: 3rem;
+}
+.t-cursor {
+  font-size: 3rem;
 }
 
 .blur {
@@ -99,10 +107,14 @@
     gap: 6rem;
   }
   .i-right {
-    transform: scale(0.7);
-    left: -9rem;
-    margin-top: -8rem;
+    /* transform: scale(0.7); */
+    width: 100%;
+    left: -30%;
   }
+  .i-right > * {
+    width: 150%;
+  }
+
   .i-right .blur {
     display: none;
   }
@@ -111,5 +123,10 @@
   }
   .floating-div:nth-of-type(2) {
     top: 19rem !important;
+  }
+  .writer {
+    width: 100%;
+    font-size: 2.5rem;
+   
   }
 }

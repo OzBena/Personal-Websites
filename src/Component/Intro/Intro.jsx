@@ -4,15 +4,10 @@ import Github from "@iconscout/react-unicons/icons/uil-github";
 import LinkedIn from "@iconscout/react-unicons/icons/uil-linkedin";
 import File from "@iconscout/react-unicons/icons/uil-file-download";
 import Resume from "../../Documents/CV.pdf";
-import ProfilePic from "../../img/Oz1.png";
-
-import Thumbup from "../../img/thumbup.png";
-import Crown from "../../img/crown.png";
-import Glassesimoji from "../../img/glassesimoji.png";
-import FloatingDiv from "../FloatingDiv/FloatingDiv";
+import ProfilePic from "../../img/Oz2.png";
+import Typewriter from "typewriter-effect";
 import { themeContext } from "../../Context";
 import { useContext } from "react";
-import { motion } from "framer-motion";
 import { Link } from "react-scroll";
 
 function Intro() {
@@ -28,14 +23,38 @@ function Intro() {
       navigator.msMaxTouchPoints > 0
     );
   };
-  console.log(isTouchDevice());
 
   return (
     <div className="intro">
       <div className="i-left">
         <div className="i-name">
-          <span style={{ color: darkMode ? "white" : "" }}>Hey! I Am</span>
-          <span>Oz Benacot</span>
+          <span style={{ color: darkMode ? "white" : "" }}>Oz Benacot</span>
+          <div
+            className="writer"
+            style={
+              isTouchDevice()
+                ? { height: "11.5rem", overflow: "hidden" }
+                : { display: "flex", alignItems: "center" }
+            }
+          >
+            <span style={{ marginRight: "15px" }}>I Am </span>
+            <Typewriter
+              style={{ height: "1em", overflow: "hidden" }}
+              options={{
+                strings: [
+                  "Fullstack Developer",
+                  "Software Developer",
+                  "a Team Collaborator",
+                ],
+                autoStart: true,
+                loop: true,
+                deleteSpeed: 30,
+                delay: 50,
+                wrapperClassName: "writer",
+                cursorClassName: "t-cursor",
+              }}
+            />
+          </div>
           <span>
             Computer science (B.Sc.) graduate who is seeking to work with
             diverse teams in a technical environment.
@@ -61,37 +80,7 @@ function Intro() {
         </div>
       </div>
       <div className="i-right">
-        <img src={ProfilePic} alt="" />
-
-        <motion.img
-          initial={{ top: "-5rem", left: "-3rem" }}
-          whileInView={
-            isTouchDevice()
-              ? { top: "-5rem", left: "4rem" }
-              : { top: "-5rem", left: "2rem" }
-          }
-          transition={transition}
-          src={Glassesimoji}
-          alt=""
-        />
-        <motion.div
-          initial={{ top: "0px", left: "32rem" }}
-          whileInView={ { top: "0rem", left: "25rem" }}
-          transition={transition}
-          className="floating-div"
-        >
-          <FloatingDiv image={Crown} txt1="Web" txt2="Developer" />
-        </motion.div>
-        <motion.div
-          initial={{ top: "21rem", left: "2rem" }}
-          whileInView={{ top: "21rem", left: "8rem" }}
-          transition={transition}
-          className="floating-div"
-        >
-          <FloatingDiv image={Thumbup} txt1="Software" txt2="Developer" />
-        </motion.div>
-
-        {/* blur divs */}
+        <img src={ProfilePic} alt="" className="porfilePic" />
         <div className="blur" style={{ background: "rgb (238 210 255)" }}></div>
         <div
           className="blur"

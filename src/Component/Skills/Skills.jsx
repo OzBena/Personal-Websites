@@ -1,8 +1,8 @@
 import React from "react";
 import "./Skills.css";
-import HeartEmoji from "../../img/heartemoji.png";
-import GlassesEmoji from "../../img/glasses.png";
-import HumbleEmoji from "../../img/humble.png";
+import SWDev from "../../img/sw-dev.png";
+import backend from "../../img/backend.png";
+import frontend from "../../img/frontend.png";
 import Card from "../Card/Card";
 import Resume from "../../Documents/CV.pdf";
 import { themeContext } from "../../Context";
@@ -42,7 +42,7 @@ function Skills() {
           transition={transition}
         >
           <Card
-            emoji={HeartEmoji}
+            emoji={SWDev}
             heading={"Software"}
             details={"C#, Java, Python, C++, .Net, Assembly"}
           />
@@ -53,7 +53,7 @@ function Skills() {
           transition={transition}
         >
           <Card
-            emoji={HumbleEmoji}
+            emoji={frontend}
             heading={"Frontend"}
             details={"React, JavaScript, Html, Recoil, Css, MUI"}
           />
@@ -64,7 +64,7 @@ function Skills() {
           transition={transition}
         >
           <Card
-            emoji={GlassesEmoji}
+            emoji={backend}
             heading={"Backend"}
             details={"Node.js, Django, MySql, Express.js"}
           />

@@ -114,4 +114,8 @@
   .s-details {
     width: 15rem;
   }
+  .portfolio img {
+    width: 15rem;
+    height: 8rem;
+  }
 }

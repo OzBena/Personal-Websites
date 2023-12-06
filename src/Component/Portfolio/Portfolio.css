@@ -104,6 +104,7 @@
 @media screen and (max-width: 480px) {
   .portfolio {
     height: 20rem;
+    margin-top: 15rem;
   }
   .portfolio img {
     width: 15rem;

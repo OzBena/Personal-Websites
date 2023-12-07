@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.7efeba40.css",
+    "main.css": "/static/css/main.405a9b7f.css",
     "main.js": "/static/js/main.9a65c1c6.js",
     "static/media/SWAPI.jpg": "/static/media/SWAPI.5a3fa8e53c4327bea5c4.jpg",
     "static/media/Art Chat.jpg": "/static/media/Art Chat.e6820ee0bd252f8a855c.jpg",
@@ -13,11 +13,11 @@
     "static/media/backend.png": "/static/media/backend.4b700ce74a056bf7ebbb.png",
     "static/media/frontend.png": "/static/media/frontend.edbabc3933d6506b9243.png",
     "index.html": "/index.html",
-    "main.7efeba40.css.map": "/static/css/main.7efeba40.css.map",
+    "main.405a9b7f.css.map": "/static/css/main.405a9b7f.css.map",
     "main.9a65c1c6.js.map": "/static/js/main.9a65c1c6.js.map"
   },
   "entrypoints": [
-    "static/css/main.7efeba40.css",
+    "static/css/main.405a9b7f.css",
     "static/js/main.9a65c1c6.js"
   ]
 }

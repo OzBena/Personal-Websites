@@ -45,9 +45,9 @@
     min-width: 0px;
   }
   .button:hover {
-    background: linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%);
+    background: linear-gradient(180deg, #460ffd 40.71%, #2f70fb 99.36%);
     cursor: default;
     color: white;
-    border: none;
+    border: 2px solid white;
   }
 }
